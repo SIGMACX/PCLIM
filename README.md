@@ -1,6 +1,13 @@
-# PCLIM
+# PCLIM: Prototype-Based Category-Level Image--Text Multimodal Learning for Fetal Cardiac Ultrasound Analysis
 
-### Prototype-Based Category-Level Image--Text Multimodal Learning for Fetal Cardiac Ultrasound Analysis
+<p align="center">
+  <a href="https://github.com/SIGMACX/PCLIM"><img src="https://img.shields.io/badge/Code-PCLIM-blue" alt="Code"></a>
+  <img src="https://img.shields.io/badge/Task-Fetal%20Cardiac%20Ultrasound%20Analysis-green" alt="Task">
+  <img src="https://img.shields.io/badge/Setting-Low%20Label%20(1--10%25)-orange" alt="Setting">
+  <img src="https://img.shields.io/badge/Paradigm-Category--Level%20Learning-blue" alt="Paradigm">
+  <img src="https://img.shields.io/badge/Key%20Idea-Multi--Prototype%20Memory-purple" alt="Key Idea">
+  <img src="https://img.shields.io/badge/Training-EMA%20%2B%20Contrastive-red" alt="Training">
+</p>
 
 ------------------------------------------------------------------------
 
@@ -9,13 +16,13 @@
 PCLIM is a **category-level prototype-based multimodal learning
 framework** for fetal cardiac ultrasound classification.
 
-<p align="center">
-  <img src="readme_file/PCLIM.png" width="95%" alt="Overview of PCLIM">
-</p>
-
 It replaces instance-level image--text alignment with **learnable
 class-wise multi-prototype representations**, enabling robust learning
 under **extremely limited annotations (1%--10%)**.
+
+<p align="center">
+  <img src="readme_file/PCLIM.png" width="95%" alt="Overview of PCLIM">
+</p>
 
 ------------------------------------------------------------------------
 
